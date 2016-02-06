@@ -1,13 +1,11 @@
 class UrlMappings {
 
-	static mappings = {
-        "/$controller/$action?/$id?(.$format)?"{
-            constraints {
-                // apply constraints here
-            }
-        }
+    static mappings = {
+            
+        "/barrio"(controller: "barrio", action: "barrioList")
+        "/barrio/$id"(controller: "barrio", action:"barrioLastInfo")
 
         "/"(view:"/index")
         "500"(view:'/error')
-	}
+    }
 }

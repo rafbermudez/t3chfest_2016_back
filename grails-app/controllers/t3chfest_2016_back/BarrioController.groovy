@@ -4,18 +4,17 @@ import grails.converters.JSON
 
 class BarrioController {
 
-    def BarrioList(){
+    def barrioList(){
         def barrios = Barrio.findAll()
         
         render barrios as JSON
     }
     
-    def BarrioLastInfo(Long id){
-        println id
-        BarrioInfo(id, 12, 2015)
+    def barrioLastInfo(Long id){
+        barrioInfo(id, 12, 2015)
     }
     
-    def BarrioInfo(Long barrioId, Integer mes, Integer year){
+    def barrioInfo(Long barrioId, Integer mes, Integer year){
         
         def barrio = Barrio.findById(barrioId)
         
