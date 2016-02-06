@@ -6,6 +6,7 @@ class BootStrap {
     def poblacionService
     def actuacionPolicialService
     def estacionService
+    def ruidoService
     
     def algoritmoSeguridadService
     def algoritmoMedioAmbienteService
@@ -22,9 +23,13 @@ class BootStrap {
         //Creación de Estaciones
         estacionService.cargaEstaciones()
         
+        //Carga de ruido en estaicones
+        ruidoService.cargaRuido()
+        
         //Carga de datos por histórico
         poblacionService.leerPoblacionPorMes()
         actuacionPolicialService.leerActuacion()
+        barrioService.obtenerDatosDeEstaciones()
 
         //Cálculo de agregados
         algoritmoSeguridadService.calculaNotas()
