@@ -31,9 +31,14 @@ class HistoricoPorBarrio {
     Float las90	
     Float las99
 
+    //Notas agregadas
+    Float seguridad
+    Float medioAmbiente
+    Float economia
 
     static constraints = {
         poblacion nullable:true
+        
         actuacionesContraPersonas nullable:true
         actuacionesPatrimonio nullable:true
         tenenciaArmas nullable:true
@@ -54,6 +59,8 @@ class HistoricoPorBarrio {
         las90	 nullable:true
         las99 nullable:true
         
-
+        seguridad nullable:true
+        medioAmbiente nullable:true
+        economia nullable:true
     }
 }
