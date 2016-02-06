@@ -23,6 +23,14 @@ class HistoricoPorBarrio {
     Integer alcoholMenores
     Integer actuacionesEnLocales
     Integer denunciasSobreLocales
+    
+    //ruido
+    Float las01	
+    Float las10	
+    Float las50	
+    Float las90	
+    Float las99
+
 
     static constraints = {
         poblacion nullable:true
@@ -40,5 +48,12 @@ class HistoricoPorBarrio {
         alcoholMenores nullable:true
         actuacionesEnLocales nullable:true
         denunciasSobreLocales nullable:true
+        las01 nullable:true
+        las10 nullable:true
+        las50	 nullable:true
+        las90	 nullable:true
+        las99 nullable:true
+        
+
     }
 }
