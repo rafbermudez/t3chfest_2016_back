@@ -5,6 +5,8 @@ class BootStrap {
     def barrioService
     def poblacionService
     def actuacionPolicialService
+    def estacionService
+    
     def algoritmoSeguridadService
     def algoritmoMedioAmbienteService
     def algoritmoEconomiaService
@@ -16,6 +18,9 @@ class BootStrap {
         
         //Creación de Histórico por barrio
         barrioService.generarHistoricoPorAno(2015)
+        
+        //Creación de Estaciones
+        estacionService.cargaEstaciones()
         
         //Carga de datos por histórico
         poblacionService.leerPoblacionPorMes()
