@@ -3,6 +3,7 @@ import t3chfest_2016_back.*
 class BootStrap {
     
     def barrioService
+    def poblacionService
 
     def init = { servletContext ->
         
@@ -12,6 +13,7 @@ class BootStrap {
 //        b.save()
         
         barrioService.leerBarrios()
+        barrioService.generarHistoricoPorAno(2015)
 
         //Creación de Histórico por barrio
         

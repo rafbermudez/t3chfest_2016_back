@@ -27,4 +27,26 @@ class BarrioService {
 
         }
     }
+    
+    def generarHistoricoPorAno(def year)
+    {
+        1..12.each{
+            mes ->
+            Barrio.list().each{
+         
+                barrio->
+                def historico = [
+                    mes: mes,
+                    year:year,
+                    barrio:barrio
+                ] as HistoricoPorBarrio
+                
+                if (!historico.save()) {
+                    historico.errors.each {
+                        println it
+                    }
+                }
+            }
+        }        
+    }
 }
