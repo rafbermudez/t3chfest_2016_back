@@ -5,6 +5,9 @@ class BootStrap {
     def barrioService
     def poblacionService
     def actuacionPolicialService
+    def algoritmoSeguridadService
+    def algoritmoMedioAmbienteService
+    def algoritmoEconomiaService
 
     def init = { servletContext ->
         
@@ -18,9 +21,10 @@ class BootStrap {
         poblacionService.leerPoblacionPorMes()
         actuacionPolicialService.leerActuacion()
 
-        
-        
-        //Carga de datos
+        //Cálculo de agregados
+        algoritmoSeguridadService.calculaNotas()
+        algoritmoMedioAmbienteService.calculaNotas()
+        algoritmoEconomiaService.calculaNotas()
         
     }
     def destroy = {
