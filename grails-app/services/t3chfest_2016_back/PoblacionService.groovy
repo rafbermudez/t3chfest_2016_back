@@ -10,7 +10,7 @@ class PoblacionService {
     def leerPoblacionPorMes()
     {
         File defaultDir = new File("data")
-        String fileName = "ene15.csv"
+        String fileName = "poblacion.csv"
         
         CSVMapReader reader = new CSVMapReader(new File(defaultDir, fileName).newReader())
         
