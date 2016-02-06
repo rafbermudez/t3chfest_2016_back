@@ -1,22 +1,22 @@
-BARRIO
-ARGANZUELA
-BARAJAS
-CARABANCHEL
-CENTRO
-CHAMARTIN
-CHAMBERI
-CIUDAD LINEAL
-FUENCARRAL-EL PARDO
-HORTALEZA
-LATINA
-MONCLOA-ARAVACA
-MORATALAZ
-PUENTE DE VALLECAS
-RETIRO
-SALAMANCA
-SAN BLAS-CANILLEJAS
-TETUAN
-USERA
-VICALVARO
-VILLA DE VALLECAS
-VILLAVERDE
+BARRIO,,,"<barrio-card barrioId=""1"" economia-value=""7"" barrio-name=""TETUAN"" map-url=""https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24285.28482530676!2d-3.71763146315883!3d40.46064828152593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422906e34771eb%3A0x9887e1ccf09cb673!2zVGV0dcOhbiwgTWFkcmlk!5e0!3m2!1ses!2ses!4v1454754201754""></barrio-card>"
+ARGANZUELA,1,,"<barrio-card barrioId=""1"" economia-value=""7"" barrio-name=""ARGANZUELA"" map-url=""""></barrio-card>"
+BARAJAS,2,,"<barrio-card barrioId=""2"" economia-value=""7"" barrio-name=""BARAJAS"" map-url=""""></barrio-card>"
+CARABANCHEL,3,,"<barrio-card barrioId=""3"" economia-value=""7"" barrio-name=""CARABANCHEL"" map-url=""""></barrio-card>"
+CENTRO,4,,"<barrio-card barrioId=""4"" economia-value=""7"" barrio-name=""CENTRO"" map-url=""""></barrio-card>"
+CHAMARTIN,5,,"<barrio-card barrioId=""5"" economia-value=""7"" barrio-name=""CHAMARTIN"" map-url=""""></barrio-card>"
+CHAMBERI,6,,"<barrio-card barrioId=""6"" economia-value=""7"" barrio-name=""CHAMBERI"" map-url=""""></barrio-card>"
+CIUDAD LINEAL,7,,"<barrio-card barrioId=""7"" economia-value=""7"" barrio-name=""CIUDAD LINEAL"" map-url=""""></barrio-card>"
+FUENCARRAL-EL PARDO,8,,"<barrio-card barrioId=""8"" economia-value=""7"" barrio-name=""FUENCARRAL-EL PARDO"" map-url=""""></barrio-card>"
+HORTALEZA,9,,"<barrio-card barrioId=""9"" economia-value=""7"" barrio-name=""HORTALEZA"" map-url=""""></barrio-card>"
+LATINA,10,,"<barrio-card barrioId=""10"" economia-value=""7"" barrio-name=""LATINA"" map-url=""""></barrio-card>"
+MONCLOA-ARAVACA,11,,"<barrio-card barrioId=""11"" economia-value=""7"" barrio-name=""MONCLOA-ARAVACA"" map-url=""""></barrio-card>"
+MORATALAZ,12,,"<barrio-card barrioId=""12"" economia-value=""7"" barrio-name=""MORATALAZ"" map-url=""""></barrio-card>"
+PUENTE DE VALLECAS,13,,"<barrio-card barrioId=""13"" economia-value=""7"" barrio-name=""PUENTE DE VALLECAS"" map-url=""""></barrio-card>"
+RETIRO,14,,"<barrio-card barrioId=""14"" economia-value=""7"" barrio-name=""RETIRO"" map-url=""""></barrio-card>"
+SALAMANCA,15,,"<barrio-card barrioId=""15"" economia-value=""7"" barrio-name=""SALAMANCA"" map-url=""""></barrio-card>"
+SAN BLAS-CANILLEJAS,16,,"<barrio-card barrioId=""16"" economia-value=""7"" barrio-name=""SAN BLAS-CANILLEJAS"" map-url=""""></barrio-card>"
+TETUAN,17,,"<barrio-card barrioId=""17"" economia-value=""7"" barrio-name=""TETUAN"" map-url=""""></barrio-card>"
+USERA,18,,"<barrio-card barrioId=""18"" economia-value=""7"" barrio-name=""USERA"" map-url=""""></barrio-card>"
+VICALVARO,19,,"<barrio-card barrioId=""19"" economia-value=""7"" barrio-name=""VICALVARO"" map-url=""""></barrio-card>"
+VILLA DE VALLECAS,20,,"<barrio-card barrioId=""20"" economia-value=""7"" barrio-name=""VILLA DE VALLECAS"" map-url=""""></barrio-card>"
+VILLAVERDE,21,,"<barrio-card barrioId=""21"" economia-value=""7"" barrio-name=""VILLAVERDE"" map-url=""""></barrio-card>"
