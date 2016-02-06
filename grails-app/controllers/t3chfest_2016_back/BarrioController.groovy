@@ -10,6 +10,11 @@ class BarrioController {
         render barrios as JSON
     }
     
+    def BarrioLastInfo(Long id){
+        println id
+        BarrioInfo(id, 12, 2015)
+    }
+    
     def BarrioInfo(Long barrioId, Integer mes, Integer year){
         
         def barrio = Barrio.findById(barrioId)
@@ -21,6 +26,6 @@ class BarrioController {
             eq("year", year)
         }
         
-        render info as JSON
+        render result as JSON
     }
 }
