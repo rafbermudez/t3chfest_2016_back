@@ -6,7 +6,9 @@ class HistoricoPorBarrio {
     Integer mes
     Integer year
     Barrio barrio
+    Integer poblacion
 
     static constraints = {
+        poblacion nullable:true
     }
 }

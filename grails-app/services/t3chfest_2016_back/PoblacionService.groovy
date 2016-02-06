@@ -12,15 +12,18 @@ class PoblacionService {
         File defaultDir = new File("data")
         String fileName = "ene15.csv"
         
-        CSVMapReader reader = new CSVMapReader(new File(dir, fileName).newReader())
+        CSVMapReader reader = new CSVMapReader(new File(defaultDir, fileName).newReader())
         
         reader.each{
             csvLineMap ->
             
-            def barrio = Barrio.findByName(csvLineMap.Distrito)
-            def historico = HistoricoPorBarrio.findByBarrioAndMesAndAno(barrio,csvLineMap.Mes,csvLineMap.Ano)
+            def barrio = Barrio.findByNombre(csvLineMap.Distrito)
+            
 
-            historico.poblacion = csvLineMap.Total
+            
+            def historico = HistoricoPorBarrio.findByBarrioAndMesAndYear(barrio,csvLineMap.Mes,csvLineMap.Ano)
+
+            historico.poblacion = csvLineMap.Total.toInteger()
             
             if (!historico.save()) {
                 historico.errors.each {

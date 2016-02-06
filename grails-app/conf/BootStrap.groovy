@@ -14,6 +14,8 @@ class BootStrap {
         
         barrioService.leerBarrios()
         barrioService.generarHistoricoPorAno(2015)
+        
+        poblacionService.leerPoblacionPorMes()
 
         //Creación de Histórico por barrio
         
