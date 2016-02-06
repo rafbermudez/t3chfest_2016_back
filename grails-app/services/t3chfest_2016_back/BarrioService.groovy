@@ -83,6 +83,26 @@ class BarrioService {
                 
                 }
             }
+            else
+            {
+                def historicos = HistoricoPorBarrio.findAllByBarrio(barrio)
+                
+                historicos.each{
+                    historico->
+                    historico.las01 = 0
+                    historico.las10 = 0
+                    historico.las50 = 0
+                    historico.las90 = 0
+                    historico.las99 = 0
+                    
+                    if (!historico.save()) {
+                        historico.errors.each {
+                            println it
+                        }
+                    }
+                
+                }
+            }
             
         }
     }
