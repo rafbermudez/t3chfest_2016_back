@@ -24,6 +24,9 @@ class AlgoritmoEconomiaService {
         
         Float nota = 0.0
         
+        Float notaCompra = (6500 - historico.compraM2) * 10 / 6500
+        
+        nota = notaCompra
         
         return nota
     }

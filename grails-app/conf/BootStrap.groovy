@@ -7,6 +7,7 @@ class BootStrap {
     def actuacionPolicialService
     def estacionService
     def ruidoService
+    def viviendaService
     
     def algoritmoSeguridadService
     def algoritmoMedioAmbienteService
@@ -30,6 +31,7 @@ class BootStrap {
         poblacionService.leerPoblacionPorMes()
         actuacionPolicialService.leerActuacion()
         barrioService.obtenerDatosDeEstaciones()
+        viviendaService.leerDatosVivienda()
 
         //Cálculo de agregados
         algoritmoSeguridadService.calculaNotas()

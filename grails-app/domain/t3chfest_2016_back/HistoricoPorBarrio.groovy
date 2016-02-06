@@ -35,6 +35,10 @@ class HistoricoPorBarrio {
     Float seguridad
     Float medioAmbiente
     Float economia
+    
+    //Vivienda
+    Float compraM2
+    Float alquilerM2
 
     static constraints = {
         poblacion nullable:true
@@ -58,6 +62,8 @@ class HistoricoPorBarrio {
         las50	 nullable:true
         las90	 nullable:true
         las99 nullable:true
+        compraM2 nullable:true
+        alquilerM2 nullable:true
         
         seguridad nullable:true
         medioAmbiente nullable:true
